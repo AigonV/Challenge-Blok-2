@@ -41,6 +41,16 @@ ul.nav li.current a {
     margin-bottom: 300px;
 }
 
+.source{
+    margin-bottom: 300px;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+.sourceCode{
+    margin-left: 350px;
+}
+
 .text{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -56,4 +66,5 @@ ul.nav li.current a {
     color: rgb(202, 29, 29);
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-right: auto;
 }
