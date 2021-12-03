@@ -82,49 +82,21 @@ ul.nav li.current a {
 }
 
 .wordpress {
-  align-items: center;
-  background-clip: padding-box;
-  background-color: #ce2525;
-  border: 1px solid transparent;
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  position: relative;
+  background-color: #700404;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
+  display: inline-block;
+  font-size: 16px;
   margin-left: 860px;
   margin-top: 60px;
 }
 
-.wordpress:hover,
-.wordpress:focus {
+.wordpress:hover {
   background-color: #c51818;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-}
-
-.wordpress:hover {
-  transform: translateY(-1px);
-}
-
-.wordpress:active {
-  background-color: #750303;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-  transform: translateY(0);
 }
 
 p{
@@ -134,48 +106,6 @@ p{
     text-align: center;
 }
 
-.hide {
-    align-items: center;
-    background-clip: padding-box;
-    background-color: #ce2525;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    margin: 0;
-    min-height: 3rem;
-    position: relative;
-    text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    width: auto;
-    margin-left: 990px;
-    margin-bottom: 120px;
-  }
-  
-  .hide:hover,
-  .hide:focus {
-    background-color: #c51818;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  }
-  
-  .hide:hover {
-    transform: translateY(-1px);
-  }
-  
-  .hide:active {
-    background-color: #750303;
-    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-    transform: translateY(0);
-  }
+#projects{
+  display: none;
+}
