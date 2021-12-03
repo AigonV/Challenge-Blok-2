@@ -1,9 +1,15 @@
-function hide() {
-  var x = document.getElementById("projects");
+function hide(){
+  var x = document.getElementById("thinkcode");
+  var y = document.getElementById("pro");
 
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  x.style.display = "none";
+  y.style.display = "none";
+}
+
+function show(){
+  var x = document.getElementById("thinkcode");
+  var y = document.getElementById("pro");
+
+  x.style.display = "block";
+  y.style.display = "block";
 }
